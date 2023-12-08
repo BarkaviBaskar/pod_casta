@@ -60,7 +60,14 @@ dependencies {
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.compose.material3:material3")
     implementation ("androidx.navigation:navigation-compose:2.7.5")
-
+    implementation ("io.ktor:ktor-client-android:1.6.4")
+    implementation ("io.ktor:ktor-client-json:1.6.4")
+    implementation ("io.ktor:ktor-client-serialization:1.6.4")
+    implementation ("androidx.compose.ui:ui:1.5.4")
+    implementation ("androidx.compose.material3:material3:1.2.0-alpha12")
+    implementation ("org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.1")
+    implementation ("androidx.ui:ui-tooling:1.0.0-alpha07")
+    implementation ("io.coil-kt:coil-compose:1.4.0")
 
 
     testImplementation("junit:junit:4.13.2")
